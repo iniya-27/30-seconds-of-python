@@ -12,7 +12,7 @@ Checks if all the values in a list are unique.
 - Use `len()` to compare the length of the unique values to the original list.
 
 ```py
-def all_unique(lst):
+def all_unique(lst: list) -> bool:
   return len(lst) == len(set(lst))
 ```
 
